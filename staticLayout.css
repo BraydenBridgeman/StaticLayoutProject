@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#mainSection {
+    background-image: url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
+    background-color: rgb(146, 45, 146);
+    height: 80vh;
+    position: sticky;
+    background-position: 50%;
+    background-size: cover;
+}
+
+span img {
+    height: 2.3vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+span img:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    position: sticky;
+    flex: 1;
+}
+
+nav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    float: right;
+}
+
+nav a {
+    font-size: 1rem;
+    height: 3rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 3vw;
+    word-spacing: 5vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+.navButton {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .navButton:hover {
+    color: white;
+    transform: scale(1.05);
+  }
