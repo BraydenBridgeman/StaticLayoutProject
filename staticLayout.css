@@ -26,6 +26,14 @@ span img:hover {
     transform: scale(1.05);
 }
 
+nav {
+    overflow: hidden;
+    background-color: rgba(218, 235, 216, .5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 nav ul {
     display: flex;
     text-align: center;
@@ -35,28 +43,21 @@ nav ul {
 
 nav li {
     list-style-type: none;
+    display: block;
     text-align: center;
     position: sticky;
-    flex: 1;
-}
-
-nav {
-    background-color: transparent;
-    position: fixed;
-    top: 0;
     float: right;
+    flex: 1;
 }
 
 nav a {
     font-size: 1rem;
     height: 3rem;
     text-transform: capitalize;
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(255, 255, 255);
-    margin-left: 3vw;
-    word-spacing: 5vw;
     padding-right: 2vw;
-    padding-bottom: 2vw;
+    padding-bottom: 25vw;
     padding-top: 2vw;
 }
 
@@ -78,7 +79,60 @@ nav a {
     letter-spacing: 2px;
   }
   
-  .navButton:hover {
+.navButton:hover {
     color: white;
     transform: scale(1.05);
   }
+
+.infoOpenKastButton {
+    background-color: rgb(254,144,0);
+    border: 1px solid rgb(254,144,0);
+    border-radius: 3px;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.infoOpenKastButton:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+
+.infoSection {
+    max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+aside img {
+    margin: auto;
+    margin-top: 8vw;
+    justify-content: center;
+    width: 72%;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 49px;
+    text-align: center;
+    font-weight: 535;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+}
+
+strong {
+    font-weight: bold;
+}
