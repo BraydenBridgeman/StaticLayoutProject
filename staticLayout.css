@@ -2,13 +2,14 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  max-width: 100%;
 }
 
 #mainSection {
   background-image: url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
   background-color: rgb(146, 45, 146);
   min-height: 80vh;
-  background-position: 50%;
+  background-position: 50% 50%;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -155,7 +156,6 @@ strong {
 
 .featuredSection {
   display: flex;
-  position: relative;
   justify-content: center;
   background-color: white;
   padding-top: 100px;
@@ -240,16 +240,16 @@ img {
 .bottomQuote {
     display: flex;
     max-width: 734px;
-    margin-bottom: 100px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    padding-bottom: 125px;
 }
 
 .italic {
     text-align: center;
     width: 100%;
-    font-size: 20px;
-    font-weight: 50;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 10;
+    font-family: 'Roboto', sans-serif;
 }
